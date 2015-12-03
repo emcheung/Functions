@@ -2,10 +2,13 @@ float a, b, c;
 void setup() {
 }
 void draw() {
-  println(hypotenuse(5, 12));
+  a = random(100);
+  b = random(100);
+  c = random(100);
+  println(add(a, b, c));
 }
 
-float hypotenuse(float a, float b) {
-  float c = sqrt(sq(a) + sq(b));
-  return c;
+float add(float a, float b, float c) {
+  float x = sqrt(sq(a) + sq(b));
+  return x;
 }
