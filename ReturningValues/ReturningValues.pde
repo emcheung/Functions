@@ -9,6 +9,6 @@ void draw() {
 }
 
 float add(float a, float b, float c) {
-  float x = sqrt(sq(a) + sq(b));
+  float x = a + b + c;
   return x;
 }
